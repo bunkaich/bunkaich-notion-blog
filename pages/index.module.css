@@ -9,9 +9,16 @@
   align-items: center;
   padding: 40px 0 20px;
 }
-
+.logos img {
+  width: 130px;
+  margin-right: 1rem;
+}
+.h1 {
+  margin: 0;
+  margin-top: 15px;
+}
 .header {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .header p {
@@ -43,14 +50,16 @@
 .posts {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .post {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
+  padding: 1rem;
+  border-bottom: 1px solid #dedede;
 }
 
 .postTitle {
+  margin-top: 10px;
   margin-bottom: 10px;
   font-size: 1.4rem;
 }
