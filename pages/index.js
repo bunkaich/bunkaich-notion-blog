@@ -18,7 +18,7 @@ export default function Home({ posts }) {
       <main className={styles.container}>
         <header className={styles.header}>
           <div className={styles.logos}>
-            <Image src="/3rdschool_logo_horizontal.png" width={130} height={100} objectFit="contain" alt="logo" />
+            <Image src="/logo_h.png" width={130} height={100} objectFit="contain" alt="logo" />
             <h1 className={styles.h1}>Notion Blog</h1>
           </div>
           
