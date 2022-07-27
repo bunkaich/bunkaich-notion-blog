@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from 'next/image';
 import { getDatabase } from "../lib/notion";
 import { Text } from "./[id].js";
 import styles from "./index.module.css";
@@ -17,7 +18,7 @@ export default function Home({ posts }) {
       <main className={styles.container}>
         <header className={styles.header}>
           <div className={styles.logos}>
-            <img src="https://github.com/bunkaich/notion-blog-nextjs/blob/master/public/3rdSchool_logo_horizontal.png"></img>
+            <Image src="/3rdschool_logo_horizontal.png" width={130} height={100} objectFit="contain" alt="logo" />
             <h1 className={styles.h1}>Notion Blog</h1>
           </div>
           
