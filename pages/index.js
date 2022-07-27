@@ -17,7 +17,7 @@ export default function Home({ posts }) {
       <main className={styles.container}>
         <header className={styles.header}>
           <div className={styles.logos}>
-            <img src="/3rdschool_logo_horizontal.png"></img>
+            <img src="https://github.com/bunkaich/notion-blog-nextjs/blob/master/public/3rdSchool_logo_horizontal.png"></img>
             <h1 className={styles.h1}>Notion Blog</h1>
           </div>
           
