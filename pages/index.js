@@ -1,4 +1,5 @@
-import Head from "next/head";
+//import Head from "next/head";
+import Meta from "../components/meta";
 import Link from "next/link";
 import { getDatabase } from "../lib/notion";
 import { Text } from "./[id].js";
@@ -9,10 +10,7 @@ export const databaseId = process.env.NOTION_DATABASE_ID;
 export default function Home({ posts }) {
   return (
     <div>
-      <Head>
-        <title>Notion Next.js blog</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Meta pageTitle="分解ちゃんねる" />
 
       <main className={styles.container}>
         <header className={styles.header}>
