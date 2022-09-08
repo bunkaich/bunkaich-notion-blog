@@ -153,9 +153,11 @@ const renderBlock = (block) => {
     case "bookmark":
       const href = value.url
       return (
-        <a href={ href } target="_brank" className={styles.bookmark}>
-          { href }
-        </a>
+        <p>
+          <a href={ href } target="_brank" className={styles.bookmark}>
+            { href }
+          </a>
+        </p>
       );
     default:
       return `❌ Unsupported block (${
